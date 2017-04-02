@@ -12,12 +12,32 @@
                 margin: auto;
             }
 
-            h1 {
+            h1, h2 {
+                color: maroon;
                 font-size: 20pt;
             }
 
+            ol {
+                padding-left: 10px;
+                list-style-type: none;
+            }
+
+            li {
+                padding: 10px;
+            }
+
+            li:nth-child(n) {
+                background: #EEEEEE;
+                color: #444444;
+            }
+
+            li:nth-child(2n) {
+                background: #444444;
+                color: #EEEEEE;
+            }
+
             p {
-                line-height: 20pt;
+                line-height: 15pt;
             }
         </style>
     </head>
@@ -58,9 +78,5 @@
             <li> The Alchemist (Paulo Coelho) </li>
             <li> Sapiens: A Brief History of Humankind (Yuval Noah Harari) </li>            
         </ol>
-
-        <p>
-            This site will look cooler when I have the time to make it so.
-        </p>
     </body>
 </html>
