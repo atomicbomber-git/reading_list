@@ -28,17 +28,43 @@
 
             li:nth-child(n) {
                 background: #EEEEEE;
-                color: #444444;
+                color: #222222;
             }
 
             li:nth-child(2n) {
-                background: #444444;
+                background: #222222;
                 color: #EEEEEE;
+            }
+
+            span.number {
+                font-weight: bold;
+                padding: 3px;
+                display: inline-block;
+                min-width: 30px;
+                text-align: left;
+                border: thin solid #DD3333;
+                background: lightyellow;
+                color: #DD3333;
             }
 
             p {
                 line-height: 15pt;
             }
+
+            ol.list {
+                display: table;
+            }
+
+            ol.list li {
+                display: table-row;
+            }
+
+            ol.list span.cell {
+                padding: 10px;
+                display: table-cell;
+            }
+
+
         </style>
     </head>
     <body>
@@ -49,34 +75,54 @@
              and to remind myself of my intention to read as often as possible. <strong> All books listed are in English unless noted otherwise. </strong>
         </p>
 
-        <p> <strong> Last Updated: April 2, 2017. </strong> </p>
+        <p> <strong> Last Updated: May 25, 2017. </strong> </p>
 
         <h2> Currently Reading: </h2>
 		<ol>
-			<li> The Dragon's Path (Daniel Abraham) </li>
-			<li> The Sixth Extinction: An Unnatural History (Elizabeth Kolbert) </li>
-			<li> Writing to Learn (William Zinsser) </li>
+			<li> Babylon's Ashes (James S. A. Corey) </li>
 		</ol>
 
-        <h2> Finished (ordered from the most recent): </h2>
-        <ol>
-	    <li> L'Étranger [French] (Albert Camus) </li>
-            <li> The Price of Spring (Daniel Abraham) </li>
-            <li> An Autumn War (Daniel Abraham) </li>
-            <li> A Betrayal in Winter (Daniel Abraham) </li>            
-            <li> A Shadow in Summer (Daniel Abraham) </li>
-			<li> Empire of Storms (Sarah J. Maas) </li>
-			<li> Queen of Shadows (Sarah J. Maas) </li>
-			<li> Heir of Fire (Sarah J. Maas) </li>
-			<li> Crown of Midnight (Sarah J. Maas) </li>
-        	<li> Throne of Glass (Sarah J. Maas) </li>
-			<li> To Kill a Mockingbird (Harper Lee) </li>
-			<li> Unweaving the Rainbow: Science, Delusion and the Appetite for Wonder (Richard Dawkins) </li>
-            <li> Make It Stick: The Science of Successful Learning (Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel) </li>
-            <li> Man's Search for Meaning (Viktor E. Frankl) </li>
-            <li> The Pragmatic Programmer: From Journeyman to Master (Andy Hunt, Dave Thomas) </li>
-            <li> The Alchemist (Paulo Coelho) </li>
-            <li> Sapiens: A Brief History of Humankind (Yuval Noah Harari) </li>            
+        <h2> Finished Reading (ordered from the most recent): </h2>
+        <ol class="list">
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Nemesis Games (James S. A. Corey) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Cibola Burn (James S. A. Corey) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Abaddon's Gate (James S. A. Corey) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Caliban's War (James S. A. Corey) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Leviathan Wakes (James S. A. Corey) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Spider's War (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Widow's House (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Tyrant's Law (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The King's Blood (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Dragon's Path (Daniel Abraham) </span> </li>
+	        <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">L'Étranger [French] (Albert Camus) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Price of Spring (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">An Autumn War (Daniel Abraham) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">A Betrayal in Winter (Daniel Abraham) </span> </li>            
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">A Shadow in Summer (Daniel Abraham) </span> </li>
+			<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Empire of Storms (Sarah J. Maas) </span> </li>
+			<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Queen of Shadows (Sarah J. Maas) </span> </li>
+			<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Heir of Fire (Sarah J. Maas) </span> </li>
+			<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Crown of Midnight (Sarah J. Maas) </span> </li>
+        	<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Throne of Glass (Sarah J. Maas) </span> </li>
+			<li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">To Kill a Mockingbird (Harper Lee) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Unweaving the Rainbow: Science, Delusion and the Appetite for Wonder (Richard Dawkins) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Make It Stick: The Science of Successful Learning (Peter C. Brown, Henry L. Roediger III, Mark A. </ McDaniel) </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Man's Search for Meaning (Viktor E. Frankl) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Pragmatic Programmer: From Journeyman to Master (Andy Hunt, Dave Thomas) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">The Alchemist (Paulo Coelho) </span> </li>
+            <li> <span class="cell"> <span class="number"> </span> </span> <span class="cell">Sapiens: A Brief History of Humankind (Yuval Noah Harari) </span> </li>
+
+
         </ol>
+
+        <script>
+            var numbers = document.getElementsByClassName("number");
+
+            for (var i = 0; i < numbers.length; i++) {
+                numbers[numbers.length - i - 1].innerHTML = "#" + (i + 1);
+            }
+
+        </script>
+
     </body>
 </html>
